@@ -1,11 +1,12 @@
 import React from 'react';
-import { SafeAreaView, StyleSheet, View } from 'react-native';
+import { SafeAreaView, StyleSheet, StatusBar } from 'react-native';
 import MyStack from './components/navigation';
 
 const App = () => {
     return (
         <SafeAreaView style={styles.container}>
-            <MyStack/>
+            <StatusBar backgroundColor="#010A43"/>
+            <MyStack />
         </SafeAreaView>
     )
 }
